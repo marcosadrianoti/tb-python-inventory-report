@@ -32,7 +32,6 @@ class SimpleReport(Report):
 
     def get_largest(self) -> None:
         company: Dict[str, int] = dict()
-        # company: Dict = dict()
 
         for inventory in self.inventories:
             for product in inventory.data:
@@ -42,9 +41,7 @@ class SimpleReport(Report):
                 else:
                     company[company_name] = 1
 
-        self.largest_inventory_company = max(
-            company, key=company.get
-        )
+                self.largest_inventory_company = max(company)
 
     def get_oldest(self) -> None:
         for inventory in self.inventories:
