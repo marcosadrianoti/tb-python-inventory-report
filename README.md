@@ -12,12 +12,13 @@ Projeto desenvolvido por mim durante o curso de Desenvolvimento Web na Trybe. Di
 <details>
 <summary><strong> Requisitos do projeto:</strong></summary>
 
-  *  Eliminar o(s) bug(s) da função `show_deepest_file`.
-  *  Eliminar o(s) bug(s) da função `find_file_by_name`.
-  *  Criar testes para a função `show_preview`.
-  *  Criar testes para a função `show_details`.
-  *  Criar testes para a função `show_disk_usage`.
-  *  Criar testes para a função `find_duplicate_files`.
+  *  Testar o construtor/inicializador do objeto Produto.
+  *  Testar o relatório individual gerado por Produto.
+  *  Criar a Interface `Importer`.
+  *  Criar a classe `JsonImporter`.
+  *  Criar a classe `Inventory`.
+  *  Criar o protocolo `Report`.
+  *  Criar o relatório `SimpleReport`.
 </details>
   
 ## Rodando o projeto localmente
