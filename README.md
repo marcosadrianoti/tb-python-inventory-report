@@ -56,12 +56,7 @@ Instale as dependências no ambiente virtual:
 ```bash
 python3 -m pip install -r dev-requirements.txt
 ```
-Configure o auto-complete da aplicação com o comando `pro-filer --install-completion` e reinicie o terminal.
 
-Execute o comando pro-filer seguido de --help para obter orientação como usar a aplicação:
-```bash
-pro-filer --help
-```
 Execute os testes com:
 ```bash
 python3 -m pytest
