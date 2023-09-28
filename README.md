@@ -32,13 +32,13 @@ cd meu-diretorio
 Clone o projeto com o comando `git clone`:
 
 ```bash
-git clone git@github.com:marcosadrianoti/tb-python-profiler.git
+git clone git@github.com:marcosadrianoti/tb-python-inventory-report.git
 ```
 
 Acesse o diretório do projeto com o comando `cd`:
 
 ```bash
-cd tb-python-profiler
+cd tb-python-inventory-report
 ```
 
 crie o ambiente virtual:
